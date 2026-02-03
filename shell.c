@@ -23,7 +23,7 @@ int main() {
             continue;
         }
 
-        input[strcspn(input, "\n")] = '\0'; //removes '\n'
+        input[strcspn(input, "\r\n")] = '\0'; //removes '\n'
 
         if (strcmp(input, "exit") == 0) {
             printf("mini-bash successfully exited.");
