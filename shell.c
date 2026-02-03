@@ -7,6 +7,7 @@ Project Description: A simple shell in C
 #include <string.h>
 #include <unistd.h>
 #include <sys/types.h>
+#include <sys/wait.h>
 
 #define MAX_INPUT 1024
 #define MAX_ARGS 64
